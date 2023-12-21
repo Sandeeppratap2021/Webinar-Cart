@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.shopping-card{
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px ;
+}
+
+.shopping-card div {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shopping-card div:hover {
+  color: #ff8800; /* Change color on hover */
+}
+
+.product-item{
+  padding: 20px;
+}
+.cart-list{
+  padding: 20px;
+}
